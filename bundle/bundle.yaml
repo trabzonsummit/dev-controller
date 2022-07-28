@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "3"
+version: "4"
 id: "trabzonsummit-dev-controller"
 description: "CloudBees CI configuration bundle for the trabzonsummit dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/trabzonsummit/dev-controller"
-parent: "base"
-rbac:
-  - "rbac.yaml"
+parent: "rbac-base"
 items:
   - "folder.yaml"
+variables:
+  - "variables.yaml"
